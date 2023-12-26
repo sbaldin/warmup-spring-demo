@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="DemoSpringApplication - Disable Launch Optimization" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <option name="ENABLE_LAUNCH_OPTIMIZATION" value="false" />
+    <module name="demo-spring.main" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.sbaldin.warmup.demospring.DemoSpringApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

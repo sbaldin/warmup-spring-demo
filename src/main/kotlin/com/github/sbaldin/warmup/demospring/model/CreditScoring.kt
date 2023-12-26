@@ -11,7 +11,7 @@ data class CreditScoring(
     val carScoring: CarScoring,
     val houseScoring: HouseScoring,
     val insuranceBroker: InsuranceBroker,
-    val insuranceCarrier: InsuranceCarrier
+    val insuranceCarrier: InsuranceCarrier?
 )
 
 data class CreditHistoryEntry(
@@ -56,7 +56,7 @@ data class InsuranceBroker(
     val brokerPhoneNumber: String,
     val brokerEmail: String,
     val brokerSpecialization: String,
-    val issuePaper: IssuePaper
+    val issuePaper: IssuePaper?
 )
 
 data class InsuranceCarrier(
@@ -70,7 +70,7 @@ data class InsuranceCarrier(
 )
 
 data class IssuePaper(
-    val policy: Policy,
+    val policy: Policy?,
     val startDate: String,
     val endDate: String    
 )
