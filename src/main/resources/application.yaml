@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: warmup-spring-demo
+  profiles:
+    active: dev
+  lifecycle:
+    timeout-per-shutdown-phase: 60s
+server:
+  port: 8080
+  servlet:
+    context-path: /${spring.application.name}
+  shutdown: graceful

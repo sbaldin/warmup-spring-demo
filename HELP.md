@@ -1,6 +1,3 @@
-# warmup-spring-demo
-JVM Warmup Spring Demo 
-
 # Getting Started
 
 ### Reference Documentation
@@ -25,3 +22,4 @@ The following guides illustrate how to use some features concretely:
 These additional references should also help you:
 
 * [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
+

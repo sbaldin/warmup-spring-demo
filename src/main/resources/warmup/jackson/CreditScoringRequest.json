@@ -1,0 +1,75 @@
+{
+  "payload": {
+    "clientId": "clientId_f1050ac49c76",
+    "clientName": "clientName_52b47b860d0e",
+    "creditScore": 0,
+    "creditHistory": [
+      {
+        "date": "date_ca7c39190201",
+        "description": "description_844c2d622be3",
+        "amount": 0.00
+      }
+    ],
+    "currentDebt": 0.00,
+    "income": 0.00,
+    "healthScoring": {
+      "medicalHistory": [
+        {
+          "condition": "condition_7c2d4e2944f4",
+          "diagnosisDate": "diagnosisDate_67e02348f6ec",
+          "prescription": "prescription_1036c5780aa1"
+        }
+      ],
+      "lifestyleScore": 0,
+      "insuranceScore": 0
+    },
+    "carScoring": {
+      "carMake": "carMake_1f8bb8aeee51",
+      "carModel": "carModel_562dcd660c1d",
+      "year": 0,
+      "previousAccidents": 0,
+      "mileage": 0.00
+    },
+    "houseScoring": {
+      "propertyType": "propertyType_7046c9450d33",
+      "address": "address_256aa3279801",
+      "yearBuilt": 0,
+      "numberOfBedrooms": 0,
+      "mortgageAmount": 0.00
+    },
+    "insuranceBroker": {
+      "brokerId": "brokerId_fec686932af8",
+      "brokerName": "brokerName_bf9b974e60c3",
+      "brokerLicense": "brokerLicense_3b48f694db87",
+      "brokerAddress": "brokerAddress_b1401e5377b3",
+      "brokerPhoneNumber": "brokerPhoneNumber_b159c340d27f",
+      "brokerEmail": "brokerEmail_910841bf520e",
+      "brokerSpecialization": "brokerSpecialization_27a5d702c7ef",
+      "issuePaper": {
+        "policy": {
+          "policyNumber": "policyNumber_7e2b4b36dd7f",
+          "premium": 0.00,
+          "fee": 0.00,
+          "revenue": 0.00,
+          "startDate": "startDate_63ad63c67875",
+          "endDate": "endDate_53f6cf21f5b5",
+          "year": 0,
+          "clientId": "clientId_f750c4e89c2e"
+        },
+        "startDate": "startDate_219b20d956d5",
+        "endDate": "endDate_5b28b9047d91"
+      }
+    },
+    "insuranceCarrier": {
+      "carrierId": "carrierId_f810a4fa3bf7",
+      "carrierName": "carrierName_44a9e0d96adb",
+      "carrierAddress": "carrierAddress_5d22fbb232bd",
+      "carrierPhoneNumber": "carrierPhoneNumber_1a912d33aed9",
+      "carrierEmail": "carrierEmail_fe55d9e5d571",
+      "carrierRating": 0,
+      "carrierServices": [
+        "carrierServices_fde12eb09acc"
+      ]
+    }
+  }
+}
